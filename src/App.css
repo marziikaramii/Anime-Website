@@ -3,10 +3,6 @@
 {
    --color-light-orange: #ffdd95;
 }
-#root {
-  max-width: 1280px;
-  padding: 1rem;
-}
 
 .logo {
   height: 6em;
