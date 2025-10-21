@@ -10,9 +10,9 @@ function App() {
  
   return (
     <>
-      <HeroCarousel />
+      
       <div className='max-w-7xl mx-auto'>
-      <AnimeList />
+    
       </div>
     </>
   )

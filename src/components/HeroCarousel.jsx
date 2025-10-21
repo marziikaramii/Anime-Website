@@ -27,7 +27,7 @@ export  default function HeroCarousel()
         return <p>Anime is Loading</p>
     }
  return (
-    <div>
+    <div className="slider-wrapper" >
            <Carousel settings={heroSettings} >
                    {animeSliderList.map((anime) => (
                     <HeroCarouselItem key={anime.mal_id} anime={anime} />
@@ -39,8 +39,8 @@ export  default function HeroCarousel()
  function HeroCarouselItem({anime})
 {
     return (
-        <div className="h-[500px] overflow-hidden w-full">
-            <img  classname='w-full' src={anime.images.webp.large_image_url}/>
+        <div className="h-[500px] overflow-hidden w-full slider-item">
+            <img   src={anime.images.webp.large_image_url} />
         </div>
        
     )
